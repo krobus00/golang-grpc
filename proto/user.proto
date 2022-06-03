@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "github.com/krobus00/golang-grpc/pb";
+
+message User {
+    string username = 1;
+    string full_name = 2;
+    string email = 3;
+}
